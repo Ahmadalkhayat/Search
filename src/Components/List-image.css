@@ -1,0 +1,16 @@
+.page {
+    background-color: #eee;
+    height: max-content;
+}
+.list-image{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+gap: 10px;
+}
+.list-image img{
+    width: 400px;
+    height: 500px;
+}
+
