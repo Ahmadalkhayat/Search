@@ -15,7 +15,7 @@ class SearchBar extends Component{
         return <div className="ui segment "> 
             <form className="ui form" onSubmit={this.onsub}>
                 <div className="field">
-                    <label>image search & videos</label>
+                    <label>image search </label>
                 <input type="text"
                 value={this.state.term}
                 onChange={(event)=> this.setState({term:event.target.value}) } />
